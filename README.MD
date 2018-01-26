@@ -1,4 +1,4 @@
-This is Keras/TensorFlow implementation of the YOLO algorithm.
+This is a Keras/TensorFlow implementation of the YOLO algorithm.
 
 How to run:
 1. Clone repository
@@ -22,4 +22,8 @@ Converting Darknet model to Keras model: (Directly quoting Allan Zelener - YAD2K
 
 Running the above cmds will save the converted model 'yolo.h5' in the 'model_data' folder.
 
-**Comments and references will be added soon.
+References:
+
+1. YOLO's official website - https://pjreddie.com/darknet/yolo/
+2. 'YOLO9000: Better,Faster,Stronger'  - Joseph Redmon, Ali Farhadi
+3. 'YAD2K: Yet Another Darknet 2 Keras' - Allan Zelener (https://github.com/allanzelener/YAD2K)
