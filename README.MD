@@ -4,8 +4,8 @@ How to run:
 1. Clone repository
 2. Place your images in the 'images' folder
 3. Download cfg,weights from YOLO website and convert them to Keras 	model as described below. 
-3. Open the notebook and run the code.
-4. output will be saved in the 'out' folder.
+4. Open the notebook and run the code.
+5. output will be saved in the 'out' folder.
 
 Converting Darknet model to Keras model: (Directly quoting Allan Zelener - YAD2K: Yet Another Darknet 2 Keras https://github.com/allanzelener/YAD2K)
 
@@ -20,7 +20,7 @@ Converting Darknet model to Keras model: (Directly quoting Allan Zelener - YAD2K
 	wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolo.cfg
 	./yad2k.py yolo.cfg yolo.weights model_data/yolo.h5
 
-Running the above cmds will save the converted model 'yolo.h5' in the 'model_data' folder.
+Running the above cmds will save the converted model 'yolo.h5' in the 'model_data' folder. If you don't have cython, h5py or pillow installed, just run 'pip install cython h5py pillow'
 
 References:
 
